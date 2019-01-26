@@ -63,12 +63,13 @@
             </ul>
         </div>
     @endif
-        <form method="post" action="{{url('/types')}}">
+        <form method="post" action="{{action('TypeController@update' , $id )}}">
             <div class="form-group row">
                 {{csrf_field()}}
-                <label for="typeName" class="col-sm-2 col-form-label col-form-label-lg">Type</label>
+                <input name="_method" type = "hidden" value = "PATCH">
+                <label for="type" class="col-sm-2 col-form-label col-form-label-lg">Type</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control form-control-lg" id="lgFormGroupInput1" placeholder="Enter name:" name="typeName">
+                    <input type="text" class="form-control form-control-lg" id="lgFormGroupInput1" placeholder="Enter name:" name="type" value="{{$type->type}}">
                 </div>
             </div>
             <div class="form-group row">

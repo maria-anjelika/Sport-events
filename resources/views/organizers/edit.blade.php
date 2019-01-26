@@ -63,12 +63,13 @@
             </ul>
         </div>
     @endif
-        <form method="post" action="{{url('/organizers')}}">
+        <form method="post" action="{{action('OrganizerController@update' , $id )}}">
             <div class="form-group row">
                 {{csrf_field()}}
+                <input name="_method" type = "hidden" value = "PATCH">
                 <label for="organizerName" class="col-sm-2 col-form-label col-form-label-lg">Organizer Name</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control form-control-lg" id="lgFormGroupInput1" placeholder="Enter name:" name="organizerName">
+                    <input type="text" class="form-control form-control-lg" id="lgFormGroupInput1" placeholder="Enter name:" name="organizerName" value="{{$organizer->organizerName}}">
                 </div>
             </div>
             <div class="form-group row">

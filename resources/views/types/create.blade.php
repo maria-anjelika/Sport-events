@@ -67,9 +67,9 @@
     <form method="post" action="{{url('/types')}}">
         <div class="form-group row">
             {{csrf_field()}}
-            <label for="typeName" class="col-sm-2 col-form-label col-form-label-lg">Type</label>
+            <label for="type" class="col-sm-2 col-form-label col-form-label-lg">Type</label>
             <div class="col-sm-10">
-                <input type="text" class="form-control form-control-lg" id="lgFormGroupInput1" placeholder="Enter name:" name="typeName">
+                <input type="text" class="form-control form-control-lg" id="lgFormGroupInput1" placeholder="Enter name:" name="type">
             </div>
         </div>
         <div class="form-group row">

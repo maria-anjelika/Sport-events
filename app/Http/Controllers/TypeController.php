@@ -41,7 +41,7 @@ class TypeController extends Controller
             ]);
 
             $type->save();
-            return redirect('type');
+            return redirect('types');
         }
     }
 
