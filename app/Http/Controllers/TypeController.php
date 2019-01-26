@@ -74,6 +74,6 @@ class TypeController extends Controller
         //
 
         return redirect('types')->with('success','Type has been deleted');
-        
+
     }
 }

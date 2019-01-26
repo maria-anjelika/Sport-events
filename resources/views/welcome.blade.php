@@ -12,9 +12,9 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: lightgreen;
                 color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                font-family: Bahnschrift;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -45,21 +45,16 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 80px;
             }
-
             .links > a {
-                color: #636b6f;
+                color: #333333;
                 padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
+                font-size: 15px;
+                font-weight: 100;
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
             }
         </style>
     </head>

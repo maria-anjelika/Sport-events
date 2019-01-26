@@ -12,7 +12,7 @@ class SearchController extends Controller
 {
     public function searchSportsEvents(){
         $q = Input::get('q');
-        $sportEvent = SportEvent::where('sportEventName','LIKE','%'.$q.'%')->orWhere('locationName','LIKE','%'.$q.'%')->get();
+        $sportEvent = SportEvent::where('sportEventName','LIKE','%'.$q.'%')->orWhere('sportEventName','LIKE','%'.$q.'%')->get();
         if(count($sportEvent)>0)
             return view('sportsEvents.search')->withDetails($sportEvent)->withQuery($q);
         else return view('sportsEvents.search')->withMessage('No detail found. Try to search again!');
@@ -20,7 +20,7 @@ class SearchController extends Controller
 
     public function searchOrganizers(){
         $q = Input::get('q');
-        $organizer = StortEvent::where('organizerName','LIKE','%'.$q.'%')->get();
+        $organizer = Organizer::where('organizerName','LIKE','%'.$q.'%')->get();
         if(count($organizer)>0)
             return view('organizers.search')->withDetails($organizer)->withQuery($q);
         else return view('organizers.search')->withMessage('No detail found. Try to search again!');
@@ -28,7 +28,7 @@ class SearchController extends Controller
 
     public function searchTypes(){
         $q = Input::get('q');
-        $type = SportEvent::where('type','LIKE','%'.$q.'%')->get();
+        $type = Type::where('type','LIKE','%'.$q.'%')->get();
         if(count($type)>0)
             return view('types.search')->withDetails($type)->withQuery($q);
         else return view('types.search')->withMessage('No detail found. Try to search again!');
