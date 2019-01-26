@@ -13,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/types/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="71" column="157" selection-start-line="71" selection-start-column="157" selection-end-line="71" selection-end-column="157" />
+            <state relative-caret-position="73">
+              <caret line="17" selection-start-line="17" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/sportsEvents/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/organizers/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -65,11 +83,11 @@
         <option value="$PROJECT_DIR$/resources/views/types/show.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_12_225237_create_sport_events_table.php" />
         <option value="$PROJECT_DIR$/resources/views/sportsEvents/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/organizers/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/sportsEvents/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/types/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TypeController.php" />
         <option value="$PROJECT_DIR$/resources/views/types/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/sportsEvents/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/organizers/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -343,12 +361,12 @@
       <workItem from="1545293773142" duration="3817000" />
       <workItem from="1547115492210" duration="539000" />
       <workItem from="1547326141729" duration="6401000" />
-      <workItem from="1547379771601" duration="28551000" />
+      <workItem from="1547379771601" duration="28896000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39328000" />
+    <option name="totallyTimeSpent" value="39673000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,20 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/organizers/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sportsEvents/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="71" column="179" selection-start-line="71" selection-start-column="179" selection-end-line="71" selection-end-column="179" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/types/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -689,8 +693,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/types/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="71" column="157" selection-start-line="71" selection-start-column="157" selection-end-line="71" selection-end-column="157" />
+        <state relative-caret-position="73">
+          <caret line="17" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sportsEvents/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/organizers/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
