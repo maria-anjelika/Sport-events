@@ -24,7 +24,6 @@ Route::resource('organizers','OrganizerController');
 Route::resource('types','TypeController');
 Route::resource('images', 'ImageController');
 
-Route::get('/home', 'HomeController@index')->name('home');
 Route::post('sportsEvents.search','SearchController@searchSpotsEvents');
 Route::post('organizers.search','SearchController@searchOrganizers');
 Route::post('types.search','SearchController@searchTypes');

@@ -18,8 +18,23 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+        th, td, tr {
+            background-color: white;
+        }
+        .input-group{
+            max-width: 30%;
+        }
+        .col-sm-10 {
+            max-width: 25%;
+        }
+    </style>
 </head>
 <body>
+
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">

@@ -56,17 +56,6 @@
     <a class="btn btn-small btn-info" href="{{ URL::to('sportsEvents/create') }}">Create a Sport Event</a>
 </div>
 <br>
-{{--<form action="{{action("SearchController@searchSportsEvents")}}" method="POST" role="search">--}}
-    {{--{{ csrf_field() }}--}}
-    {{--<div class="input-group">--}}
-        {{--<input type="text" class="form-control" name="search"--}}
-               {{--placeholder="Search a sport event"> <span class="input-group-btn">--}}
-            {{--<button type="submit" class="btn btn-default">--}}
-                {{--<span class="glyphicon glyphicon-search">Search</span>--}}
-            {{--</button>--}}
-        {{--</span>--}}
-    {{--</div>--}}
-{{--</form>--}}
 <br>
 <td>
     @if (Auth::check())
@@ -92,7 +81,7 @@
             <td>{{$value->sportEventName}}</td>
             <td>{{$value->organizerName}}</td>
             <td>{{$value->date}}</td>
-            <td>{{$value->continuace}}</td>
+            <td>{{$value->continuance}}</td>
             <td>{{$value->type}}</td>
             <td>
                 <a class="btn btn-primary btn-red" href="{{ route('sportsEvents.show', $value->id) }}" method="POST">Show</a>
